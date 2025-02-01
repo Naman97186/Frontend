@@ -66,7 +66,7 @@ const PopularClasses = () => {
               initial={{ color: "gray" }} // Default color
               whileHover={{ color: brand.color, scale: 1.2 }} // Change color on hover
               animate={{ color: selectedBrand === brand.id ? brand.color : "gray" }} // Selected brand color
-              onClick={() => setSelectedBrand(brand.id)}
+{/*               onClick={() => setSelectedBrand(brand.id)} */}
             >
               {brand.name}
             </motion.div>
